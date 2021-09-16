@@ -1,7 +1,5 @@
-import galleryItems from "./data/gallery-items";
 import refs from "./refs";
 import { galleryMarkup } from "./gallery-markup";
-import { keyPress } from "./keyPress";
 import { onModalOpen, onModalClose, onBackdropClick } from "./modal-window";
 
 refs.galleryContainer.insertAdjacentHTML("beforeend", galleryMarkup);
