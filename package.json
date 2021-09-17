@@ -11,7 +11,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://mariashebeko.github.io/goit-js-hw-09-gallery-parcel/"
+    "url": "https://mariashebeko.github.io/goit-js-hw-09-gallery-parcel/"
   },
   "keywords": [],
   "dependencies": {
