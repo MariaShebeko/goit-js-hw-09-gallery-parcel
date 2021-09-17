@@ -5,19 +5,23 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html"
+    "build": "parcel build ./index.html --public-url /goit-js-hw-09-gallery-parcel/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "author": "Maria Shebeko",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://mariashebeko.github.io/goit-js-hw-09-gallery-parcel/"
+    "url": "git+https://github.com/MariaShebeko/goit-js-hw-09-gallery-parcel.git"
   },
   "keywords": [],
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "joi": "^17.4.2",
     "shortid": "^2.2.16"
   },
+  "homepage": "https://MariaShebeko.github.io/goit-js-hw-09-gallery-parcel",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
   }
