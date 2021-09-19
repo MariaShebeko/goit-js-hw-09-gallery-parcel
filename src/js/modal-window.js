@@ -1,5 +1,6 @@
 import refs from "./refs";
 import { keyPress } from "./keyPress";
+import { getImageAttribute } from "./getAttribute";
 
 export function onModalOpen() {
   window.addEventListener("keydown", keyPress);
