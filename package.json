@@ -11,6 +11,10 @@
   },
   "author": "Maria Shebeko",
   "license": "ISC",
+  "bugs": {
+  "url": "https://github.com/MariaShebeko/goit-js-hw-09-gallery-parcel/issues"
+ },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MariaShebeko/goit-js-hw-09-gallery-parcel.git"

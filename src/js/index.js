@@ -1,8 +1,5 @@
 import refs from "./refs";
-import galleryItems from "./data/gallery-items";
-import { onRightArrowClick, onLeftArrowClick } from "./flipping";
 import { galleryMarkup } from "./gallery-markup";
-import { keyPress } from "./keyPress";
 import { getImageAttribute } from "./getAttribute";
 import { onModalOpen, onModalClose, onBackdropClick } from "./modal-window";
 
